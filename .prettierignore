@@ -1,0 +1,10 @@
+node_modules/
+.next/
+coverage/
+package-lock.json
+audit-before.json
+audit-after-next.json
+deps-before.json
+AGENTS.md
+docs/
+next-env.d.ts

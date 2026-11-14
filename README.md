@@ -23,4 +23,11 @@ npm run build
 npm run start
 ```
 
-Run the TypeScript check with `npm run typecheck`.
+## Quality checks
+
+```sh
+npm run lint
+npm run format:check
+npm run typecheck
+npm test
+```
