@@ -1,0 +1,94 @@
+
+# ==========================================
+# Dependencies
+# ==========================================
+/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ==========================================
+# Next.js
+# ==========================================
+/.next/
+/out/
+/build/
+/dist/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+/coverage/
+/playwright-report/
+/test-results/
+/blob-report/
+/playwright/.cache/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# ==========================================
+# TypeScript
+# ==========================================
+*.tsbuildinfo
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Cache & Temporary Files
+# ==========================================
+.cache/
+.turbo/
+.eslintcache
+*.tmp
+*.temp
+
+# ==========================================
+# IDE & Editors
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating System
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Deployment
+# ==========================================
+.vercel/
+.netlify/
+
+# ==========================================
+# Local Files
+# ==========================================
+*.local
+*.bak
+*.backup
